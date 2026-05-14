@@ -1,17 +1,17 @@
-let button = document.querySelector("button");
-let firstName = document.querySelector("#first-name");
-let lastName = document.querySelector("#last-name");
-let email = document.querySelector("#email");
-let message = document.querySelector("#message");
-let privacy = document.querySelector("#privacy");
-let fistNameSpan = document.querySelector("#first-name-span");
-let lastNameSpan = document.querySelector("#last-name-span");
-let emailSpan = document.querySelector("#email-span");
-let queryTypeSpan = document.querySelector("#query-type-span");
-let messageSpan = document.querySelector("#message-span");
-let privacySpan = document.querySelector("#privacy-span");
+const button = document.querySelector("button");
+const firstName = document.querySelector("#first-name");
+const lastName = document.querySelector("#last-name");
+const email = document.querySelector("#email");
+const message = document.querySelector("#message");
+const privacy = document.querySelector("#privacy");
+const fistNameSpan = document.querySelector("#first-name-span");
+const lastNameSpan = document.querySelector("#last-name-span");
+const emailSpan = document.querySelector("#email-span");
+const queryTypeSpan = document.querySelector("#query-type-span");
+const messageSpan = document.querySelector("#message-span");
+const privacySpan = document.querySelector("#privacy-span");
 
-button.addEventListener("click", (e) => {
+button.addEventListener("click", (event) => {
   event.preventDefault();
 
   let firstNameValue = firstName.value;
