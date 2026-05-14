@@ -14,11 +14,11 @@ const privacySpan = document.querySelector("#privacy-span");
 button.addEventListener("click", (event) => {
   event.preventDefault();
 
-  let firstNameValue = firstName.value;
-  let lastNameValue = lastName.value;
-  let emailValue = email.value;
-  let messageValue = message.value;
-  let privacyValue = privacy.checked;
+  const firstNameValue = firstName.value;
+  const lastNameValue = lastName.value;
+  const emailValue = email.value;
+  const messageValue = message.value;
+  const privacyValue = privacy.checked;
 
   if (firstNameValue === "") {
     fistNameSpan.classList.remove("hidden");
